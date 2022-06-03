@@ -24,13 +24,13 @@ header {
     justify-content: space-between;
 }
 .content-nav h1{
-    margin: 38px 0px 37px 120px;
+    margin: 38px 0px 37px 0px;
     font-size:18px;
     padding: 0px; 
 }
 .imagem-nav{
     display: flex;
-    margin-right: 215px;
+    margin-right: 80px;
     width: 30px;
     height: 30px; 
 }
@@ -43,8 +43,40 @@ a,a:hover {
     color: unset;
     text-decoration: none;
 }
-.container {
+.container{
+    border: aqua 2px solid;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+.introduce{
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+.introduce h2{
+    font-size: 32px;
+    font:Open+Sans;
+    padding: 20px 0px 20px 0px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.fitness-space{
+    background: var(--bg-color-gray);
+    color:var(--color-black);
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+.fitness-space h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding:20px 0 20px 20px;
+}
+.fitness-text{
+    font-weight: 400;
+    font-size: 14px;
+    padding:0px 20px 20px 20px;
 }
