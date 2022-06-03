@@ -46,14 +46,12 @@ header {
     font-size: 14px;
 }
 
-a,
-a:hover {
+a,a:hover {
     color: unset;
     text-decoration: none;
 }
 
 .container {
-    border: aqua 2px solid;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -62,6 +60,7 @@ a:hover {
 .introduce {
     background: var(--color-blue);
     color: var(--color-white);
+    height: 418px;
 }
 
 .introduce h2 {
@@ -92,11 +91,12 @@ a:hover {
 .fitness-text {
     font-weight: 400;
     font-size: 14px;
-    padding: 0px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;  
 }
 
 .modalidade {
     background: var(--color-white);
+    
 }
 
 .modalidade h2 {
@@ -130,4 +130,44 @@ a:hover {
     font-size: 14px;
     color: var(--bg-color-gray);
     padding: 0px 0px 20px 20px;
+}
+
+footer {
+    background: var(--color-black);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-left: 417px;
+}
+.footer-text a{
+    padding-left: 10px;
+}
+
+.footer-text-1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 417px;
+}
+.footer-text-1 p{
+   padding-left: 10px;
+}
+
+.footer-text-2 {
+    padding-bottom: 60px;
 }
